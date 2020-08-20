@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources tools:keep="@string/firebase_database_url,@string/gcm_defaultSenderId,@string/google_storage_bucket,@string/project_id,@string/google_api_key,@string/google_crash_reporting_api_key,@string/google_app_id,@string/default_web_client_id" xmlns:tools="http://schemas.android.com/tools">
+  <string name="firebase_database_url" translatable="false">https://paid2puzzle.firebaseio.com</string>
+  <string name="gcm_defaultSenderId" translatable="false">145188546438</string>
+  <string name="google_storage_bucket" translatable="false">paid2puzzle.appspot.com</string>
+  <string name="project_id" translatable="false">paid2puzzle</string>
+  <string name="google_api_key" translatable="false">AIzaSyDVwPHEbouEHDCFWmL_ZmSgqLLFhViWk8k</string>
+  <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDVwPHEbouEHDCFWmL_ZmSgqLLFhViWk8k</string>
+  <string name="google_app_id" translatable="false">1:145188546438:android:0f4af75aa0134af971ae07</string>
+  <string name="default_web_client_id" translatable="false">145188546438-7552htvr7c1mk9rlvuuvmb0i30jj5oab.apps.googleusercontent.com</string>
+</resources>

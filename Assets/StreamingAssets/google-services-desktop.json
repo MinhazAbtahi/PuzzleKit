@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "145188546438",
+    "firebase_url": "https://paid2puzzle.firebaseio.com",
+    "project_id": "paid2puzzle",
+    "storage_bucket": "paid2puzzle.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:145188546438:android:0f4af75aa0134af971ae07",
+        "android_client_info": {
+          "package_name": "com.tbl.pay2puzzle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "145188546438-7552htvr7c1mk9rlvuuvmb0i30jj5oab.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVwPHEbouEHDCFWmL_ZmSgqLLFhViWk8k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "145188546438-7552htvr7c1mk9rlvuuvmb0i30jj5oab.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
