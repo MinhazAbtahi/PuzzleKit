@@ -65,8 +65,8 @@
     <file>Assets/Plugins/Android/com.google.firebase.firebase-measurement-connector-18.0.0.aar</file>
   </files>
   <settings>
-    <setting name="androidAbis" value="armeabi-v7a,x86" />
-    <setting name="bundleId" value="com.tbl.pay2puzzle" />
+    <setting name="androidAbis" value="arm64-v8a,armeabi-v7a" />
+    <setting name="bundleId" value="com.tbl.paid2puzzle" />
     <setting name="explodeAars" value="True" />
     <setting name="gradleBuildEnabled" value="True" />
     <setting name="gradleTemplateEnabled" value="False" />

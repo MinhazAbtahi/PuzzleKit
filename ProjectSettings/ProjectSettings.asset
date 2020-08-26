@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: tbl
-  productName: Pay2Puzzle
+  productName: Paid2Puzzle
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0, g: 0, b: 0, a: 1}
@@ -164,7 +164,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: com.tbl.pay2puzzle
+    Android: com.tbl.paid2puzzle
     Standalone: unity.Allebi.Puzzle
     Tizen: com.Allebi.Puzzle
     iPhone: com.Allebi.Puzzle
@@ -261,18 +261,18 @@ PlayerSettings:
   clonedFromGUID: 8788b9f630237044ba972ca8295cc317
   templatePackageId: 
   templateDefaultScene: 
-  AndroidTargetArchitectures: 5
+  AndroidTargetArchitectures: 3
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: '{inproject}: '
-  AndroidKeyaliasName: 
-  AndroidBuildApkPerCpuArchitecture: 0
+  AndroidKeystoreName: '{inproject}: Paid2Puzzle.keystore'
+  AndroidKeyaliasName: paid2puzzle keystore
+  AndroidBuildApkPerCpuArchitecture: 1
   AndroidTVCompatibility: 1
   AndroidIsGame: 1
   AndroidEnableTango: 0
   androidEnableBanner: 1
   androidUseLowAccuracyLocation: 0
-  androidUseCustomKeystore: 0
+  androidUseCustomKeystore: 1
   m_AndroidBanners:
   - width: 320
     height: 180
@@ -285,7 +285,7 @@ PlayerSettings:
   - m_BuildTarget: 
     m_Icons:
     - serializedVersion: 2
-      m_Icon: {fileID: 2800000, guid: cfd1f7f19fe65124bb0a7fb845b7d1fa, type: 3}
+      m_Icon: {fileID: 2800000, guid: 7ca4d9ab2ede6134a91606342732dbcf, type: 3}
       m_Width: 128
       m_Height: 128
       m_Kind: 0
@@ -647,13 +647,14 @@ PlayerSettings:
   platformArchitecture:
     iPhone: 0
   scriptingBackend:
-    Android: 0
+    Android: 1
     Standalone: 0
     WP8: 2
     WebGL: 1
     Windows Store Apps: 2
     iPhone: 0
-  il2cppCompilerConfiguration: {}
+  il2cppCompilerConfiguration:
+    Android: 2
   managedStrippingLevel: {}
   incrementalIl2cppBuild: {}
   allowUnsafeCode: 0
@@ -661,7 +662,8 @@ PlayerSettings:
   scriptingRuntimeVersion: 1
   gcIncremental: 1
   gcWBarrierValidation: 0
-  apiCompatibilityLevelPerPlatform: {}
+  apiCompatibilityLevelPerPlatform:
+    Android: 3
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
   metroPackageName: Puzzle
